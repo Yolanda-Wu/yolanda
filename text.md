@@ -15,18 +15,18 @@ a = a + 1;
 ## 配置 git 仓库的流程
 
 - 本地初始化仓库
-  新建文件夹
-  cd
-  git init
-  新建一些文件
+  - 新建文件夹
+  - cd
+  - git init
+  - 新建一些文件
 - github 新建远程库
 - 本地与远程连接
-  git remote add origin [远程库的 ssh 链接]
+  **git remote add origin [远程库的 ssh 链接]**
 - 第一次提交
-  git add .
-  git commit -m"**"
-  **git push --set-upstream origin master\*\*
+  - git add .
+  - git commit -m"XXXXXX"
+  - git push --set-upstream origin master**
 - 后续提交
   git add .
-  git commit -m"\*\*"
+  git commit -m"XXX"
   git push
